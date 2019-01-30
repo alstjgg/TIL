@@ -1,4 +1,4 @@
-# 01.24 - Tensorflow
+# Tensorflow - basics
 ## Tensorflow
 - library for implementing machine learning that requires a large number of mathematical operations
 - 여러 기계에서 평행적인 계산을 실행하여 빠른 연산을 가능하게 해줌.
