@@ -12,6 +12,7 @@
 ![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN/1.png)
 2. Discriminator 고정, Generator 학습
 ![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN/2.png)
+
 -> 2 player mini-max 게임과 비슷
 
 ## GAN 개요
@@ -35,6 +36,7 @@
 - G 학습의 문제점: `1-D(G(z))`를 최소화시키고자 하면 기울기(Gradient)가 너무 작아 학습이 어려움
     -> `D(G(z))`를 최대화시키는 방향으로 학습 -> 기울기(Gradient) 확보 가능
         -> *log 함수 그려보면 확인 가능*
+
 ![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN/6.PNG)
 - 학습 종료: 사람 개입 *-> 차이가 특정 수치 이하면 종료(이전 논문의 방식)*
 - k=1이면 G와 D를 번갈아 가며 학습하는 형식
