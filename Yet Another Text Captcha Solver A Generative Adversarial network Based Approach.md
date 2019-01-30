@@ -4,11 +4,11 @@ Summary of [paper](https://www.lancaster.ac.uk/staff/wangz3/publications/ccs18.p
 ## 1. Introduction
 _Presents a generic, yet effective text captcha solver based on the generative adversarial network._
 _Implemented using Python. Preprocessing built upon the Pix2Pix framework, implemented using Tensorflow. Solver coded using keras_
-### ÀåÁ¡
+### ìž¥ì 
 - Requires fewer training data
 - Better performance
 - Requires little human involvement and efforts
-### ÀÌ·Ð
+### ì´ë¡ 
 - Generative adversarial network
 - Transfer learning
 
@@ -46,7 +46,7 @@ Consists of two models
 
 ### 2. Preprocessing
 -> Preprocess captcha image to remove security features and standardize the font style
-- Pix2Pix(GAN Áß ÇÏ³ª) : Trained from synthetic captchas for which clean captchas are given(images without security features)
+- Pix2Pix(GAN ì¤‘ í•˜ë‚˜) : Trained from synthetic captchas for which clean captchas are given(images without security features)
 
 ### 3. Train Base Solver
 -> Train base solver with dataset created by generator
@@ -58,7 +58,7 @@ Consists of two models
 
 ## 4. Implementation
 ### 1. Captcha Synthesizer
-- input :  ¨ç set of real captchas, ¨è set of security features
+- input :  â‘  set of real captchas, â‘¡ set of security features
 - output : set of optimal parameter values
 1. Generator _G_
 -> set of security features + captcha word = create captcha image
@@ -97,5 +97,5 @@ Consists of two models
 
 ***
 ***
-- <span style="color:#e11d21">ÂªÀº ½Ã°£ ¾È¿¡ ºñ½ÁÇÑ ¸ðµ¨Á¶Â÷µµ ±¸ÇöÇÏ´Â °ÍÀÌ ¾î·Á¿ïµí ½ÍÀ½</span>
-- <span style="color:#e11d21">¹Î¿ø24¿Í ´ë¹ý¿øÀÇ Captcha image¸¦ ÇØ°áÇÏ´Â °ÍÀ» 1Â÷Àû ¸ñÇ¥·Î »ï±â</span>
+- <span style="color:#e11d21">ì§§ì€ ì‹œê°„ ì•ˆì— ë¹„ìŠ·í•œ ëª¨ë¸ì¡°ì°¨ë„ êµ¬í˜„í•˜ëŠ” ê²ƒì´ ì–´ë ¤ìš¸ë“¯ ì‹¶ìŒ</span>
+- <span style="color:#e11d21">ë¯¼ì›24ì™€ ëŒ€ë²•ì›ì˜ Captcha imageë¥¼ í•´ê²°í•˜ëŠ” ê²ƒì„ 1ì°¨ì  ëª©í‘œë¡œ ì‚¼ê¸°</span>
