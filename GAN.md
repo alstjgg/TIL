@@ -22,6 +22,7 @@
 - Explicit density: 모델에 대한 확률 변수를 직접접으로 구함
 - Implicit density: 모델에 대한 확률 변수를 구하지 않음 -> uses a likelihood function that cannot be expressed explicitly. the form of the likelihood function or any derive quantaties are not required, but maximizing likelihood under certain coniditons can be shown.
 ![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN/4.PNG)
+
 - P_data(X)와 P_model(X)의 차가 최소가 되도록 한다
 
 ### Autoencoder
