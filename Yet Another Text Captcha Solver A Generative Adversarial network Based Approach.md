@@ -1,5 +1,6 @@
 # Yet Another Text Captcha Solver: A Generative Adversarial network Based Approach
 Summary of [paper](https://www.lancaster.ac.uk/staff/wangz3/publications/ccs18.pdf) by Guixin Ye, Zhanyong Tang, Dingyi Fang, Zhanxing Zhu, Yansong Feng, Pengfei Xu, Xiaojiang Chen, Zheng Wang
+Focuses on the methods rather than the results
 
 ## 1. Introduction
 _Presents a generic, yet effective text captcha solver based on the generative adversarial network._
@@ -94,8 +95,3 @@ Consists of two models
 2. Build Fine-tuned Solver - manually labeled real captcha images
     - Transfer Learning : update later layers
 
-
-***
-***
-- <span style="color:#e11d21">짧은 시간 안에 비슷한 모델조차도 구현하는 것이 어려울듯 싶음</span>
-- <span style="color:#e11d21">민원24와 대법원의 Captcha image를 해결하는 것을 1차적 목표로 삼기</span>
