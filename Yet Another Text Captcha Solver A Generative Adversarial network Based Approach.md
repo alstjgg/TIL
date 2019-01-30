@@ -1,5 +1,6 @@
 # Yet Another Text Captcha Solver: A Generative Adversarial network Based Approach
 Summary of [paper](https://www.lancaster.ac.uk/staff/wangz3/publications/ccs18.pdf) by Guixin Ye, Zhanyong Tang, Dingyi Fang, Zhanxing Zhu, Yansong Feng, Pengfei Xu, Xiaojiang Chen, Zheng Wang
+
 Focuses on the methods rather than the results
 
 ## 1. Introduction
