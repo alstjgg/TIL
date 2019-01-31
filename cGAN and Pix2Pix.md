@@ -15,6 +15,7 @@
     - ex. class label 추가 -> 특정 class의 결과만 생성
 - Objective Function
 ![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/cGAN_and_Pix2Pix/3.PNG)
+
 -> y가 조건부로 들어감
 
 # Pix2Pix (image-to-image translation)
@@ -44,8 +45,10 @@
 - Discriminator에게 분류해야할 데이터(G(x, z) 또는 y) 외에 입력 영상(x)가 함께 인가된다
 - Adversarial loss(진짜 이미지처럼 보이게 해줌) + L1 Reconstruction loss(ground truth x와 비슷한 이미지가 생성되도록 해줌) 이용
 - L1 loss
+
     ![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/cGAN_and_Pix2Pix/7.PNG)
 - Objective Function
+
     ![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/cGAN_and_Pix2Pix/8.PNG)
 ## U-NET
 - Generator에서 사용하는 구조
@@ -53,12 +56,15 @@
 - FCN(Fully Convolutional Network)의 경우 1/8영상부터 skip connection을 사용하지만 U-Net의 경우 첫번째 convolution layer부터 적용한다
 - encoder에서 decoder로 정보를 직접 넘기기 때문에 선명한 이미지가 생성된다
 ![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/cGAN_and_Pix2Pix/9.PNG)
+
 -> 회색화살표: skip-connection
 ## PatchGAN
 - Discriminator에서 사용하는 구조
+
 ![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/cGAN_and_Pix2Pix/10.PNG)
 - Generator의 objective function인 L1 reconstruction loss는 이미지 간의 유클리드 거리를 최소화하는 방향으로 접근하기 때문의 이미지의 평균 성분인 저주파에 집중하게 된다
     -> 따라서 Discriminator는 고주파 영역에 집중하여 이미지의 true/false를 구별한다
+    
 ![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/cGAN_and_Pix2Pix/11.PNG)
 - ImageGAN: 일반적으로 GAN에서는 이미지 전체의 score를 구한다
 - PatchGAN: 전체 영역이 아닌, 이미지를 특정 크기의 patch로 분리하여 단위별로 true/false를 구한 후, 그 결과의 평균을 구한다
