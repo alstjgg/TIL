@@ -1,6 +1,6 @@
 # cGAN (Conditional GAN)
 ## 개요
-[Conditional Gernerative Adversarial Nets](https://arxiv.org/pdf/1411.1784.pdf)
+[Conditional Gernerative Adversarial Nets](https://arxiv.org/pdf/1411.1784.pdf) by Mehdi Mirza, Simon Osindero
 - GAN을 사용하면 학습에 사용한 이미지와 비슷한 이미지를 생성해낼 수 잇는데, 어떤 이미지를 생성할지는 선택할 수 없음
 - cGAN의 경우 어떤 이미지를 생성할지 제어할 수 있음 -> Pix2Pix, CycleGAN
 ![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/cGAN_and_Pix2Pix/1.PNG)
@@ -19,7 +19,7 @@
 -> y가 조건부로 들어감
 
 # Pix2Pix (image-to-image translation)
-[Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004.pdf)
+[Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004.pdf) by Phillip Isola,  Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros
 ![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/cGAN_and_Pix2Pix/4.PNG)
 - 영상 변환 및 생성을 위한 범용 framework
 - cGAN의 일종
