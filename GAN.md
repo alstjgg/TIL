@@ -26,7 +26,7 @@
 - P_data(X)와 P_model(X)의 차가 최소가 되도록 한다
 
 ### Autoencoder
-![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN/7.PNG)
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/cGAN_and_Pix2Pix/1.PNG)
 - Input random noise `z` -> Generator network -> Sample
 - Random noise를 입력 받아 디코더를 잘 학습시키면 원하는 분포를 갖는 데이터를 생성할 수 있다
 ### Objective Function
