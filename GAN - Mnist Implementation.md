@@ -7,7 +7,7 @@
 - Create images that are similar to images provided in the mnist dataset
 - Structure of model
 
-![image.png](https://github.com/alstjgg/alstjgg.github.io/blob/master/GAN/GAN_structure.PNG?raw=true)
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN/GAN_structure.png)
 
 ## Source Code
 ### Import libraries
