@@ -27,31 +27,9 @@ keras.preprocessing.image.ImageDataGenerator(
     preprocessing_function=None,
     data_format=None,
     validation_split=0.0,
-    dtype=None)z
+    dtype=None)
 ```
- `apply_transform`
-- Applies a transformation to an image according to given parameters
 
-`fit`
-- Fits the data generator to some sample data
-
-`flow`
-- Takes data & label arrays, generates batches of augmented data 
-
-`flow_from_dataframe`
-- Takes the dataframe and the path to a directory and generates batches of augmented/normalized data
-
-`flow_from_directory`
-- Takes the path to a directory & generates batches of augmented data
-
-`get_random_transform`
-- Generates random parameters for a transformation
-
-`random_transform`
-- Applies a random transformation to an image
-
-`standardize`
-- Applies the normalization configuration to a batch of inputs
 ### ImageDataGenerator methods
 - `apply_transform(x, transform_parameters)`
     - `x`: 3D tensor(single image)
@@ -84,3 +62,11 @@ keras.preprocessing.image.ImageDataGenerator(
     validation_generator = test_datagen.flow_from_directory('data/validation', target_size=(150, 150), batch_size=32, class_mode='binary')
     model.fir_generator(train_generator, steps_per_epoch=2000, epochs=50, validation_data=validation_generator, validation_steps=800)
     ```
+`get_random_transform`
+- Generates random parameters for a transformation
+
+`random_transform`
+- Applies a random transformation to an image
+
+`standardize`
+- Applies the normalization configuration to a batch of inputs
