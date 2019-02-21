@@ -1,13 +1,13 @@
 # GAN implementation on tensorflow
 - [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
 - [Tensorflow-Tutorials](https://github.com/golbin/TensorFlow-Tutorials/tree/master/09%20-%20GAN)
-- [tensorflow 로 mnist 흉내내는 GAN 만들기](http://jaynewho.com/post/2)
 - [Image Completion with Deep Learning in TensorFlow](http://bamos.github.io/2016/08/09/deep-completion/)
 ## Overview
 - Based on mnist dataset
 - Create images that are similar to images provided in the mnist dataset
 - Structure of model
-![image.png](https://github.com/alstjgg/alstjgg.github.io/blob/master/GAN/GAN_structure.PNG?raw=true)
+
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN/GAN_structure.png)
 
 ## Source Code
 ### Import libraries
