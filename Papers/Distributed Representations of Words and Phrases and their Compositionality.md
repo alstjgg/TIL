@@ -21,7 +21,30 @@ P(w_1, w_2, ..., 2_n) = PRODUCT [P(w_n|w_1, ..., w_n-1)]
 
 = P(w_1) x P(w_2|w_1) x P(w_3|w_1, w_2) x ... x P(w_n|w_1, ..., w_n-1)
 
-### Distributed Representation
+### BoW(Bag of Words)
+BoW does not consider the order of words in a context, but only the frequency.
+Creating a bag of words can be thought as a 2-step process
+
+1. Assign a distinct index to each word
+2. For each index, create a vecotr that records the frequency of the word
+
+Remember that the index itself is meaningless, as BoW only considers the frequency of each word.
+
+### Word Embedding
+Word embedding is the method of representing words as vecotrs. There are mainly 2 methods in creating vector representations of words, while word embedding is a dense represtation
+
+#### Sparse Representation
+A one-hot vector is a sparse vector.
+A word can be one-hot encoded by setting the index of the word to 1, while all other values are 0.
+
+The problem of sparse representation appears when the size of vocabulary increases, as it results in waste of memory.
+Moreover, sparse representation of words cannot contain the meaning of words.
+
+#### Dense Representation
+The dimension of a dense representated vector space does not depend on the size of the vocabulary.
+Rather, the user can set a certain dimension value so that each vector element takes a real number.
+
+#### Distributed Representation
 Distributed representation is based on the idea that words that appear toegether must have a similar meaning.
 For example, the word 'puppy' can be used frequently with 'cute'.
 Distributed representation will place these words closely together because it assumes they are semantically related.
@@ -35,14 +58,13 @@ Through word embedding, we can create a distributed representation of words in a
 
 There are 2 methods in creating a distributed representation of words; **CBOW** and **Skip-gram**
 
-### CBOW(Continuous Bag of Words)
+#### CBoW(Continuous Bag of Words)
+CBoW predicts a word based on its context. 
 
-
-### Skip-gram
+#### Skip-gram
+Skip-gram predicts its context based on a word.
 The skip-gram model is an efficient method for learning high-quality distributed vecotr representations that capture a large number of precise syntatic and semantic word relationships.
 
-
-### Softmax
 
 ## 2. The Skip-Gram Model
 The skip-gram model uses the softmax function to update each word in the text.
@@ -50,7 +72,10 @@ This makes it computationaly impractical, as the cost is proportional to W(size 
 
 This chapter introduces 3 improved methods in building a skip-gram model.
 
-### Hierarchical Softmax
+### Softmax & Hierarchical Softmax
+#### Softmax
+
+#### Hierarchical Softmax
 The hierarchical softmax is a computationally efficient approximation of the full softmax.
 It uses a binary tree representation of the output layer.
 
@@ -111,12 +136,8 @@ In other words, subsampling can be used to counter the imbalance between rare an
 
 ## 3. Empirical Results
 Evaluation of models are done by the **analogical reasoning task**, which consists of 2 categories.
-1. Syntactic Analogies
-
-quick:quickly::slow:slowly
-2. Semantic Analogies
-
-Germany:Berlin::France:Paris
+1. Syntactic Analogies (*quick:quickly::slow:slowly*)
+2. Semantic Analogies (*Germany:Berlin::France:Paris*)
 
 Evaluation is done on **Hierarchical Softmax, Noise Contrastive Estimation, Negative Sampling**, and **subsampling of training words**.
 
