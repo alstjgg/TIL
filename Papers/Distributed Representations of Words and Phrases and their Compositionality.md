@@ -112,8 +112,10 @@ In other words, subsampling can be used to counter the imbalance between rare an
 ## 3. Empirical Results
 Evaluation of models are done by the **analogical reasoning task**, which consists of 2 categories.
 1. Syntactic Analogies
+
 quick:quickly::slow:slowly
 2. Semantic Analogies
+
 Germany:Berlin::France:Paris
 
 Evaluation is done on **Hierarchical Softmax, Noise Contrastive Estimation, Negative Sampling**, and **subsampling of training words**.
