@@ -96,14 +96,17 @@ That is, *P(w_O|w_I)* can be defined as below.
 
 There are some advantages in using hierarchical softmax.
 
-1. Computational cost
+1. **Computational cost**
+
 The cost of computing is proportional to L(w_O), which is no greater than log W.
 Only parameters which the current training example depends on are updated, thus the number of parameters is logarithmic to the size of W.
 
-2. Word representation
+2. **Word representation**
+
 Unlike full softmax, hierarchical softmax hhas one representation for each word and inner node.
 
-3. Performance
+3. **Performance**
+
 Using hierarchical softmax results in both better training time and model accuracy.
 
 This paper uses a binary Huffman tree.
