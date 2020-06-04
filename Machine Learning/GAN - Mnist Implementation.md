@@ -156,4 +156,4 @@ Complete
 - epoch 089
 ![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/089.png?token=AGJ3RT3674P7IUCW4EAWY2S63CBI6)
 - epoch 099
-![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/099.png?token=AGJ3RT4JCOAHZL4FRB5TRHK63CAZC)
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/099.png?token=AGJ3RT6P6WZE74SY75IGL5K63CBPA)
