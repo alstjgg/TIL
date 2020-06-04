@@ -7,7 +7,7 @@
 - Create images that are similar to images provided in the mnist dataset
 - Structure of model
 
-![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN/GAN_structure.png)
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN/GAN_structure.png?token=AGJ3RT6GWBYXNE5GJMKIND263CBKY)
 
 ## Source Code
 ### Import libraries
@@ -136,24 +136,24 @@ Epoch: 0099 D loss: -0.7828 G loss: -1.725
 Complete
 ```
 - epoch 000
-![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/000.png)
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/000.png?token=AGJ3RT7XDM2HYLRF2DMDGOK63CBAK)
 - epoch 009
-![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/009.png)
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/009.png?token=AGJ3RT7Y7HJY4MG4ZUMLQHK63CBDM)
 - epoch 019
-![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/019.png)
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/019.png?token=AGJ3RT4V42BXVWAJTXSYPXK63CBEI)
 - epoch 029
-![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/029.png)
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/029.png?token=AGJ3RT5HGYBJMPJXKHYEBZS63CBFM)
 - epoch 039
-![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/039.png)
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/039.png?token=AGJ3RT5OCPT27SKA4HS5C7C63CBGI)
 - epoch 049
-![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/049.png)
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/049.png?token=AGJ3RT2OMJFF2DLJZU7SUJS63CBG6)
 - epoch 059
-![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/059.png)
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/059.png?token=AGJ3RT4GQXOXXFAD3Z7V67S63CBHC)
 - epoch 069
-![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/069.png)
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/069.png?token=AGJ3RT2FMZJ6KPDX64TQ3ZK63CBIA)
 - epoch 079
-![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/079.png)
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/079.png?token=AGJ3RT55CMC5QR5FWXVCDC263CBIY)
 - epoch 089
-![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/089.png)
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/089.png?token=AGJ3RT3674P7IUCW4EAWY2S63CBI6)
 - epoch 099
-![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/099.png)
+![image.png](https://raw.githubusercontent.com/alstjgg/alstjgg.github.io/master/GAN%20samples/099.png?token=AGJ3RT4JCOAHZL4FRB5TRHK63CAZC)
